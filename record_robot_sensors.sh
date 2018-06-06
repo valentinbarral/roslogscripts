@@ -1,5 +1,5 @@
 #!/bin/zsh
-topics_to_record=("/gtec/vr/pos" "/raspicam_node/image/compressed" "/px4flow/px4flow/raw/optical_flow_rad" "/gtec/toa/anchors" "/gtec/toa/ranging")
+topics_to_record=("/gtec/vr/pose" "/raspicam_node/image/compressed" "/px4flow/px4flow/raw/optical_flow_rad" "/gtec/toa/anchors" "/gtec/toa/ranging")
 
 if [ "$#" -ne 3 ]; then
     echo "Use: ./record_robot_sensors basename num_reps rep_duration"
